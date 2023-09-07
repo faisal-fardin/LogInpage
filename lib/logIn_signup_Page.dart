@@ -4,6 +4,7 @@ import 'package:amni/signup_page.dart';
 import 'package:amni/slideleft_page.dart';
 import 'package:amni/slideright_page.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LogInSignUpPage extends StatefulWidget {
@@ -38,7 +39,7 @@ class _LogInSignUpPageState extends State<LogInSignUpPage> {
                       Navigator.push(
                         context,
                         SlideRightRoute(
-                          page: const SignUpPage(),
+                          page:  SignUpPage(),
                         ),
                       );
                     },
@@ -169,6 +170,71 @@ class _LogInSignUpPageState extends State<LogInSignUpPage> {
                  ),
                ],
              ),
+              Padding(
+               padding: const EdgeInsets.only(top: 10.0),
+               child: Row(
+                 mainAxisAlignment: MainAxisAlignment.center,
+                 children: [
+                   Padding(padding: const EdgeInsets.only(right: 10),
+                     child: Container(
+                       width: 50,
+                       height: 50,
+                       decoration: const BoxDecoration(
+                         color: Colors.red,
+                         boxShadow: [
+                           BoxShadow(color: Colors.grey),
+                         ],
+                         shape: BoxShape.circle,
+                       ),
+                       child: const Center(
+                         child: FaIcon(
+                           FontAwesomeIcons.google,
+                           color: Colors.white,
+                         ),
+                       ),
+                     ),
+                   ),
+                   Padding(padding: const EdgeInsets.only(right: 10),
+                     child: Container(
+                       width: 50,
+                       height: 50,
+                       decoration: const BoxDecoration(
+                         color: Colors.blue,
+                         boxShadow: [
+                           BoxShadow(color: Colors.grey),
+                         ],
+                         shape: BoxShape.circle,
+                       ),
+                       child: const Center(
+                         child: FaIcon(
+                           FontAwesomeIcons.twitter,
+                           color: Colors.white,
+                         ),
+                       ),
+                     ),
+                   ),
+                   Padding(padding: const EdgeInsets.only(right: 10),
+                     child: Container(
+                       width: 50,
+                       height: 50,
+                       decoration: const BoxDecoration(
+                         color: Colors.indigo,
+                         boxShadow: [
+                           BoxShadow(color: Colors.grey),
+                         ],
+                         shape: BoxShape.circle,
+                       ),
+                       child: const Center(
+                         child: FaIcon(
+                           FontAwesomeIcons.facebook,
+                           color: Colors.white,
+                         ),
+                       ),
+                     ),
+                   ),
+                 ],
+               ),
+             )
            ],
 
          ),
