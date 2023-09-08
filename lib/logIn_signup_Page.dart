@@ -107,7 +107,7 @@ class _LogInSignUpPageState extends State<LogInSignUpPage> {
                      Navigator.push(
                        context,
                        SlideLeftRoute(
-                         page: const LogInPage(),
+                         page: LogInPage(),
                        ),
                      );
                    },

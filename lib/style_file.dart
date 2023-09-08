@@ -22,13 +22,14 @@ TextStyle SubTitel(){
 
 InputDecoration AppInputStyle(label){
   return  InputDecoration(
-      contentPadding: const EdgeInsets.symmetric(horizontal: 24,vertical: 16),
+      contentPadding: const EdgeInsets.symmetric(horizontal: 20,vertical: 16),
       fillColor: Colors.blue,
       filled: true,
       border: const OutlineInputBorder(
         borderSide: BorderSide.none,
       ),
       hintText: label,
+
       hintStyle: const TextStyle(
         color: Colors.white,
       ),

@@ -1,3 +1,4 @@
+import 'package:amni/login_page.dart';
 import 'package:amni/style_file.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -151,6 +152,20 @@ class _SignUpPageState extends State<SignUpPage> {
                                 }
                                 return null;
                               },
+                            ),
+                          ),
+
+                          SizedBox(
+                            width: double.infinity,
+                            child: Visibility(
+                              replacement: const Center(child: CircularProgressIndicator()),
+                              child: ElevatedButton(
+                                style: buttonStyle(),
+                                onPressed: () {
+                                  Navigator.push(context, MaterialPageRoute(builder: (context) => LogInPage(),),);
+                                },
+                                child: const Icon(Icons.arrow_forward_ios,size: 25,),
+                              ),
                             ),
                           ),
                         ],
