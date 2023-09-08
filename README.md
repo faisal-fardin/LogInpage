@@ -1,16 +1,3 @@
-# amni
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![1 (2)](https://github.com/faisal-fardin/LogInpage/assets/128015653/b57327cb-93de-4ecc-a788-1e327064690d)
+![2](https://github.com/faisal-fardin/LogInpage/assets/128015653/5bead8aa-a697-4a31-ad58-a31d4b8110b9)
+![2 (2)](https://github.com/faisal-fardin/LogInpage/assets/128015653/052cf865-2528-48a0-99dd-a4c2a6e1621b)
